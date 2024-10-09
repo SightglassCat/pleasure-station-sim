@@ -11,5 +11,45 @@ To aid in maintaining the area and providing services, the player may recruit st
 
 Various factions have an interest in the project, desiring that the player focus on specific kinds of amenities. Each faction is associated with a specific area of content, whether sexual (breeding, machinery, transformation, BDSM, etc) or gameplay/setting (such as the factions representing station management, research, culinary promotion, the explorers' guild, etc.). These factions will send a small retinue of special representive NPCs, through which the player will receive requests (quests), such as to build specific relevant facilities or have guests perform certain sex acts. These factions are intended as a secondary system for the player to tailor their experience. Following requests and building reputation with a faction unlocks new objects associated with their content, and increases the guests drawn towards that content. On the other hand, a (sex-related) faction's content can be suppressed/re-allowed at will by talking to their representative. Faction representatives would also be the majority of the game's romancable characters.
 # Themes and Sexual Content
+Sexual acts performed by guest/staff NPCs are by design limited by the objects the player builds, and by the guests' preferences via the "advertisement" and faction systems. This way, built-in (or potentially mod-added) sexual content (with a few exceptions) is very modular and can be added/removed from a player's experience easily.
+
+The following content is considered fundamental, and cannot be removed from the game without a drastic rework of the game concept:
+ - Sex toys and machinery
+ - Casual sex
+ - Sex work
+ - Fluid play with cum, vaginal fluids, milk
+ - Sex magic
+ 
+The following content is considered core, meaning that the game's content will be written expecting that a player would have much or all enabled:
+ - Anthros (furries/scalies)\* and fantasy creatures
+ - Polysexuality (e.g. orgies)
+ - Breeding/Impregnation/Pregnancy
+ - BDSM
+ - Roleplaying
+ - CNC/roleplay of coercive situations\*\*
+ - Primal play
+ - Nudism, exhibitionism, voyeurism, public sex
+ - Transformation
+   - Growth/Shrinkage
+   - Extra parts
+   - TGTF
+   - Species transformation (both full and partial)
+ - Unusual Body Forms
+   - Taur, Lamia, etc.
+   - Tentacles
+   - Body materials (Slime, Fungus, Plantfolk, Plush, Latex, Candy, Crystal, etc.) 
+   - TF for above (reversible)
+ - Corruption/Demonification (a la CoC, FS; reversable)
+ - Hypnosis, consensual mild control\*\*
+   - Trance/altered states
+   - Orientation play
+   - Intoxication, substance play
+   - Drone/Mindlink
+
+\* The player will be allowed to control the species rarities that newly-generated guests will spawn as, including all-human if so desired
+
+\*\* This game is inspired by games including Corruption of Champions, Trials in Tainted Space, Lilith's Throne, Flexible Survival, Grove RPG/Prowler, and Broken Dreams Correctional Center. However, I would like for this game will steer away from the grim or dystopian themes common in those settings/bad-ends, as much as I like those games. As such, these situations will be explicitly fully consensual experiences negotiated beforehand.
+
+Extreme fetish content such as guro/extreme violence, scat, vore, and under/questionable age, is not, and will never be, a part of this game.
 # Core Gameplay Concepts
 
