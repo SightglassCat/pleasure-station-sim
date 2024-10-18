@@ -14,37 +14,37 @@ Various factions have an interest in the project, desiring that the player focus
 Sexual acts performed by guest/staff NPCs are by design limited by the objects the player builds, and by the guests' preferences via the "advertisement" and faction systems. This way, built-in (or potentially mod-added) sexual content (with a few exceptions) is very modular and can be added/removed from a player's experience easily.
 
 The following content is considered fundamental, and cannot be removed from the game without a drastic rework of the game concept:
- - Sex toys and machinery
- - Casual sex
- - Sex work
- - Fluid play with cum, vaginal fluids, milk
- - Sex magic
+- Sex toys and machinery
+- Casual sex
+- Sex work
+- Fluid play with cum, vaginal fluids, milk
+- Sex magic
  
 The following content is considered core, meaning that the game's content will be written expecting that a player would have much or all enabled:
- - Anthros (furries/scalies)\* and fantasy creatures
- - Polysexuality (e.g. orgies)
- - Breeding/Impregnation/Pregnancy
- - BDSM
- - Roleplaying
- - CNC/roleplay of coercive situations\*\*
- - Primal play
- - Nudism, exhibitionism, voyeurism, public sex
- - Transformation
-   - Growth/Shrinkage
-   - Extra parts
-   - TGTF
-   - Species transformation (both full and partial)
- - Unusual Body Forms
-   - Taur, Lamia, etc.
-   - Tentacles
-   - Body materials (Slime, Fungus, Plantfolk, Plush, Latex, Candy, Crystal, etc.) 
-   - TF for above (reversible)
- - Corruption/Demonification (a la CoC, FS; reversable)
- - Hypnosis, consensual mild control\*\*
-   - Trance/altered states
-   - Orientation play
-   - Intoxication, substance play
-   - Drone/Mindlink
+- Anthros (furries/scalies)\* and fantasy creatures
+- Polysexuality (e.g. orgies)
+- Breeding/Impregnation/Pregnancy
+- BDSM
+- Roleplaying
+- CNC/roleplay of coercive situations\*\*
+- Primal play
+- Nudism, exhibitionism, voyeurism, public sex
+- Transformation
+	- Growth/Shrinkage
+	- Extra parts
+	- TGTF
+	- Species transformation (both full and partial)
+- Unusual Body Forms
+	- Taur, Lamia, etc.
+	- Tentacles
+	- Body materials (Slime, Fungus, Plantfolk, Plush, Latex, Candy, Crystal, etc.) 
+	- TF for above (reversible)
+- Corruption/Demonification (a la CoC, FS; reversable)
+- Hypnosis, consensual mild control\*\*
+	- Trance/altered states
+	- Orientation play
+	- Intoxication, substance play
+	- Drone/Mindlink
 
 \* The player will be allowed to control the species rarities that newly-generated guests will spawn as, including all-human if so desired
 
@@ -74,4 +74,19 @@ One deck will be pre-set as the "administration deck", which contains the player
 
 One deck will be pre-set as the "entrance deck", where characters enter or exit the game area. The special rooms ringing the deck represent the entryways from the space station's docking area, or to the rest of the station. The center of the deck is ringed by a reception area.
 
-## Construction
+### Construction Menu
+In order to build/modify/move/destroy rooms and objects, the player enters into a construction mode. \[[TBD Paused during this mode? Live editing or commit?\]]. This allows to player to select and view rooms/room slots or objects. Selecting a room or room slot shows the properties of the room and a list of its objects. Selecting an object shows the properties of the object.
+
+Placing a room or object creates the unbuilt object at the location (shown as a translucent outline). Before becoming operational, the object must be constructed by a staff character in a builder role. Before being constructed, the area taken up by the unbuilt object cannot be walked over. A room will not be considered
+
+Construction of a new room:
+1. Select empty room slot(s)
+2. Layout Button (as Room Button) -> New Room Menu
+3. New Room Menu: select room type, room layout, optionally properties and segment membership.
+	 - Allow players to place objects at this time?
+	 - Allow players to choose walls/partitions, selected layout permitting
+4. Player exits New Room Menu by accepting or canceling
+5. New room placed, unbuilt
+
+### Room Properties
+## Characters
