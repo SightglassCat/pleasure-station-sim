@@ -58,7 +58,7 @@ The game takes place aboard a orbital space station, above an uninhabited planet
 
 The space station consists of a stack of circular decks (or floors), built in a radial pattern around a central trunk. The center of each floor is a elevator/transporter landing, where characters converge to travel between Decks.
 
-![Arrangement of blocks on a deck.](./deck_block_layout.png) The deck is divided into blocks, shown in red on the figure. Wedge-shaped blocks are arranged around the center, while the outer ring of the deck is divided into annular-segment ("rectagular") blocks. \[[Figure shown is a deck layout with 4 wedge blocks and 8 rectangle blocks. These numbers TBD.]\] A set of corridors (yellow in figure) used by characters to travel around the floor separate the wedge segments and form a ring on the inner edge of the rectangle blocks. [[Figure not to scale, dimensions of blocks TBD.]\] The wedge blocks are approximately 16 meters radially (along the straight edge), while the rectangular blocks are approximately 12 radially.
+![Arrangement of blocks on a deck.](./deck_block_layout.png) The deck is divided into blocks, shown in red on the figure. Wedge-shaped blocks are arranged around the center, while the outer ring of the deck is divided into annular-segment ("rectagular") blocks. \[*Figure shown is a deck layout with 4 wedge blocks and 8 rectangle blocks. These numbers TBD.*\] A set of corridors (yellow in figure) used by characters to travel around the floor separate the wedge segments and form a ring on the inner edge of the rectangle blocks. \[*Figure not to scale, dimensions of blocks TBD.*\] The wedge blocks are approximately 16 meters radially (along the straight edge), while the rectangular blocks are approximately 12 radially.
 
 The player may select one or more adjacent Blocks as a room, designating that space for a specific purpose and choosing a room type for it. Examples of room types include: lounge, dormitory, sex room, bath rooms, kitchens, and dining rooms. The player also chooses a room layout, which determines the placement of walls, dividers, walkways and object slots in that room. Rooms may be a single space (such as a for a large lounge area), or subdivided into smaller each treated as its own space. To be considered functional, a the objects in a room must meet the requirements for that room type. Once functional, staff and guest NPCs will enter the room to perform interactions with the objects and each other. Each room tracks theming, privacy, and attractions/fetishes, based on the objects in the room and the actions available in the room. Guests will be attracted to or ignore rooms based on their preferences. As guests fill up and use the room, they react to the crowdedness and noise within the room and the condition of the objects within.
 Object slots are positions on the floor and walls of the room, where objects such as furniture, decor, machinery/appliances may be placed. Each object slot may have restrictions on the size, form factor and function of the object. For example, a basic dormitory room will be divided into smaller bedroom subrooms. Each bedroom will have at least one slot on the floor for the bed, with smaller slots to the side and on the walls for different furniture.
@@ -74,19 +74,20 @@ One deck will be pre-set as the "administration deck", which contains the player
 
 One deck will be pre-set as the "entrance deck", where characters enter or exit the game area. The special rooms ringing the deck represent the entryways from the space station's docking area, or to the rest of the station. The center of the deck is ringed by a reception area.
 
-### Construction Menu
-In order to build/modify/move/destroy rooms and objects, the player enters into a construction mode. \[[TBD Paused during this mode? Live editing or commit?\]]. This allows to player to select and view rooms/room slots or objects. Selecting a room or room slot shows the properties of the room and a list of its objects. Selecting an object shows the properties of the object.
+### Construction Menus and Processes
 
-Placing a room or object creates the unbuilt object at the location (shown as a translucent outline). Before becoming operational, the object must be constructed by a staff character in a builder role. Before being constructed, the area taken up by the unbuilt object cannot be walked over. A room will not be considered
+Room and object menus are opened by clicking on room slots and object slots within rooms. These menus allow the player to view the room or object's information, configuation settings, and send build commands to staff NPCs.
 
-Construction of a new room:
-1. Select empty room slot(s)
-2. Layout Button (as Room Button) -> New Room Menu
-3. New Room Menu: select room type, room layout, optionally properties and segment membership.
-	 - Allow players to place objects at this time?
-	 - Allow players to choose walls/partitions, selected layout permitting
-4. Player exits New Room Menu by accepting or canceling
-5. New room placed, unbuilt
+Committing changes to rooms and objects does not immediately change them. Staff NPCs with a builder role must go to the site and perform a construction task in order for the objects to appear and become operable. Objects and rooms to be destroyed are immediately marked as out-of-operation (other NPCs will stop using objects, or leave the room), but are not actually removed until a staff NPC completes a teardown or destruction task. When removing objects, the player is given a choice on whether they are destroyed (using a destruction task with a higher time cost) or moved to storage (teardown). Object storage is limited by storage space in storage rooms, but those objects can be placed again without a resource cost and with a greatly reduced time cost (the staff NPC moving to retrieve the object and then placing it should take less time than a new build). Relocating an object or room places creates a teardown task and placement task, taking significantly less time than destruction and construction. Reconfiguring an object (changing the usage settings) does not require staff work, except for certain specialized objects.
+
+## Room Information Menu
+Clicking on a room, room slot or selection of multiple room slots (using a modifier key while clicking) brings up the Room Information Menu. This displays information on the room's type, condition and usage, as well as allowing the player to set the room's settings, such as usage restrictions, clothing/nudity requirements, etc. [See Room Properties].
+
+This menu also acts as a hub for interacting with the room, its users, and its objects. The player can use a series of buttons to interact with the room.
+ * Object Listing - Opens the a table of the room's objects, displaying information on types, operational status, usage, etc., as well as buttons for quick interaction with the objects.
+ * New Room/Layout - For an unused room slot (or selection of several room slots), opens the Room Layout Menu allowing the player to select a layout for the new room. For an existing room, opens the Room Layout Menu to allow the player to select a new layout and choose where to place existing objects.
+
+
 
 ### Room Properties
 ## Characters
