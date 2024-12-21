@@ -74,20 +74,37 @@ One deck will be pre-set as the "administration deck", which contains the player
 
 One deck will be pre-set as the "entrance deck", where characters enter or exit the game area. The special rooms ringing the deck represent the entryways from the space station's docking area, or to the rest of the station. The center of the deck is ringed by a reception area.
 
-### Construction Menus and Processes
+### Room Management Overview
 
 Room and object menus are opened by clicking on room slots and object slots within rooms. These menus allow the player to view the room or object's information, configuation settings, and send build commands to staff NPCs.
 
 Committing changes to rooms and objects does not immediately change them. Staff NPCs with a builder role must go to the site and perform a construction task in order for the objects to appear and become operable. Objects and rooms to be destroyed are immediately marked as out-of-operation (other NPCs will stop using objects, or leave the room), but are not actually removed until a staff NPC completes a teardown or destruction task. When removing objects, the player is given a choice on whether they are destroyed (using a destruction task with a higher time cost) or moved to storage (teardown). Object storage is limited by storage space in storage rooms, but those objects can be placed again without a resource cost and with a greatly reduced time cost (the staff NPC moving to retrieve the object and then placing it should take less time than a new build). Relocating an object or room places creates a teardown task and placement task, taking significantly less time than destruction and construction. Reconfiguring an object (changing the usage settings) does not require staff work, except for certain specialized objects.
 
-## Room Information Menu
-Clicking on a room, room slot or selection of multiple room slots (using a modifier key while clicking) brings up the Room Information Menu. This displays information on the room's type, condition and usage, as well as allowing the player to set the room's settings, such as usage restrictions, clothing/nudity requirements, etc. [See Room Properties].
-
-This menu also acts as a hub for interacting with the room, its users, and its objects. The player can use a series of buttons to interact with the room.
+Clicking on a room, room slot or selection of multiple room slots (using a modifier key while clicking) brings up the Room Information Menu. This displays information on the room's type, condition and usage, as well as allowing the player to set the room's settings, such as usage restrictions, clothing/nudity requirements, etc. [See Room Properties]. This menu also acts as a hub for interacting with the room, its users, and its objects. The player can use a series of buttons to interact with the room.
  * Object Listing - Opens the a table of the room's objects, displaying information on types, operational status, usage, etc., as well as buttons for quick interaction with the objects.
  * New Room/Layout - For an unused room slot (or selection of several room slots), opens the Room Layout Menu allowing the player to select a layout for the new room. For an existing room, opens the Room Layout Menu to allow the player to select a new layout and choose where to place existing objects.
 
-
-
 ### Room Properties
+
+The properties of a room determine what acts are performed, and if the room appeals to a given character.
+
+#### Room Settings
+* Nudity - Set a level of "clothedness" for a room. Mark different areas (chest, rear, genitals) as being (covered/covering optional/exposed). Characters will enter these spaces depending on what they wish to see, and what they are comfortable exposing on themselves. Generally, nude areas allow characters to gain arousal at the expense of social energy, while clothed areas regenerate some social energy while other Needs are being fulfilled. This property also contributes theming and appeal.
+* Costume - A set of specific clothing requrirements instead of the guidelines above, for specific theming and appeal. Examples include "Topless", "Underwear Only", "Bottomless", "Formal", etc.
+* Lewdness - If sexual acts are allowed in this room, and to what degree. Restricted or permitted by "intensity" ("None", "Non-Penetrative", "Penetrative", "Fetish Acts") and exposure level ("Private", "Discreet", "Open", "Exhibited"). All levels are permitted for the "Private" exposure level, if sex is not outright banned in the area. Characters will move up and down on intensity levels during their visit as their arousal increases and they seek sex acts, and afterwards while they recover. Not having suitable spaces available will make a character uncomfortable, meaning they will cancel further acts and potentially leave early.
+* Entry Permissions - Restrict or permit entry to the general public, staff of different levels, club members, etc.
+* Usage Permissions - How and when a room can be used, "Open Use", "First-Come Basis", "Walk-In Available", "Reservation Only".
+* Staff Involvement - Determines if and how guest characters can interact sexually with staff. Levels include "Only Business", "Watch only", "Proposition", "By Appointment", "Free Use". 
+These properties are set by the player, with subrooms inheriting from parent rooms.
+
+
+#### Theming and Appeal
+Based on the objects, decor, and permissions set for a room, the room will attract guest characters depending on their needs and desires.
+
+Appeal stats determine how well the room draws guest characters in. These ratings for each need (sex, food, rest, privacy) are based on what objects are present, and the services offered by staff, and permissions. For example, fitting an area with private bedrooms will give it appeal for rest and privacy, drawing in guests who are tired or wish to have sex privately.
+
+Theming is based more on decor and objects, and more specifically targets specific fetishes and desires. Objects and decor are tagged with appropriate associated fetishes or desires, and having the majority weighted towards one or two sets the theme of the area. Characters will enjoy sex acts that match the room's strong theme, and characters who desire that fetish will go there to perform sex acts. Not all themes are inherently sexual. For example, a room simulating a "natural" "tropical" "beach" will attract guests who wish to relax in such an environment. Food-serving areas can be themed based on decor and dishes served, attracting guests who wish to eat particular things.
+
+If a particular staff member becomes well-known, they can contribute to the appeal and theming of the areas they work in. For example, a professional dominatrix may enhance a room's "Dungeon" theme, while a skilled chef will increase a restaurant's "Food" appeal.
+
 ## Characters
